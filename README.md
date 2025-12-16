@@ -37,7 +37,7 @@ Email: obonhamcarter at allegheny.edu
     - [Prerequisites](#prerequisites)
     - [Installation \& Setup](#installation--setup)
     - [First Time Use](#first-time-use)
-  - [� Usage Guide](#-usage-guide)
+  - [📖 Usage Guide](#-usage-guide)
     - [Quick Workflow Examples](#quick-workflow-examples)
     - [Understanding QR Code Capacity](#understanding-qr-code-capacity)
   - [💡 Tips for Best Results](#-tips-for-best-results)
@@ -417,7 +417,7 @@ cargo check
 ### Customizing the Code
 
 **Adding New Color Presets:**
-Modify the `COLOR_PRESETS` array in [src/main.rs](src/main.rs#L211):
+Modify the `COLOR_PRESETS` array in [src/types.rs](src/types.rs#L211):
 ```rust
 const COLOR_PRESETS: &[ColorPreset] = &[
     // Existing presets...
