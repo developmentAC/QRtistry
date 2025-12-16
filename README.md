@@ -37,8 +37,7 @@ Email: obonhamcarter at allegheny.edu
     - [Prerequisites](#prerequisites)
     - [Installation \& Setup](#installation--setup)
     - [First Time Use](#first-time-use)
-  - [📐 Application Layout](#-application-layout)
-  - [📖 Usage Guide](#-usage-guide)
+  - [� Usage Guide](#-usage-guide)
     - [Quick Workflow Examples](#quick-workflow-examples)
     - [Understanding QR Code Capacity](#understanding-qr-code-capacity)
   - [💡 Tips for Best Results](#-tips-for-best-results)
@@ -211,30 +210,6 @@ cargo run --release
 
 The default QR code (https://oliverbonhamcarter.com) generates automatically on startup so you can immediately see the preview functionality.
 
-## 📐 Application Layout
-
-The application features a modern, professional layout as shown (sort-of) below.
-
-```text
-┌─────────────────────────────────────────────────────────────────┐
-│ 🎨 QR Code Designer Studio Pro    [Buttons: Generate, Save...] │ Top Bar
-├──────────────┬──────────────────────────────────────────────────┤
-│              │                                                    │
-│  Settings    │                                                    │
-│  Panel       │            Large Preview Area                     │
-│              │          (Shows QR Code)                          │
-│  [Tabs:]     │                                                    │
-│  • Basic     │                                                    │
-│  • Style     │                                                    │
-│  • Advanced  │                                                    │
-│  • Images    │                                                    │
-│              │                                                    │
-│  [Resizable] │                                                    │
-│      ↔       │                                                    │
-├──────────────┴──────────────────────────────────────────────────┤
-│ Status: Ready to generate QR code                                │ Status
-└───────────────────────────────────────────────────────────────────┘
-```
 
 **Key Layout Features:**
 
