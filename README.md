@@ -557,9 +557,7 @@ Contributions welcome!
 
 ## 📄 License
 
-MIT License - Free for personal, commercial, and educational use. See LICENSE file.
-
-**Built with**: egui, qrcode, image-rs, rfd
+MIT License - Free for personal, commercial, and educational use.
 
 ---
 
