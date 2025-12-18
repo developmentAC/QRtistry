@@ -49,7 +49,6 @@ Email: obonhamcarter at allegheny.edu
   - [🎯 Use Cases](#-use-cases)
   - [🎨 Technical Details](#-technical-details)
   - [Platform Support](#platform-support)
-  - [📁 Project Structure](#-project-structure)
   - [🚀 Advanced Usage](#-advanced-usage)
     - [Preset Files](#preset-files)
     - [Batch Processing](#batch-processing)
@@ -343,8 +342,6 @@ QR codes have size limits based on content length and error correction:
 - Output: PNG (RGBA, lossless compression, sRGB)
 - Presets: JSON configuration files (portable, excludes image paths)
 
-*For detailed architecture information, see [docs/ARCHITECTURE.md](docs/ARCHITECTURE.md)*
-
 ## Platform Support
 
 **Supported Platforms:**
@@ -359,29 +356,12 @@ QR codes have size limits based on content length and error correction:
 - Display: 1024×768 minimum, 1920×1080 recommended
 - Rust 1.70.0+ (for building from source)
 
-## 📁 Project Structure
-
-```
-QRtistry/
-├── Cargo.toml              # Rust dependencies
-├── README.md               # This file
-├── docs/                   # Additional documentation
-├── src/
-│   ├── main.rs            # Application entry point
-│   ├── app.rs             # Main application logic
-│   ├── qr/                # QR generation modules
-│   └── ui/                # UI components
-└── target/
-    └── release/           # Production builds
-```
-
-*For detailed code organization, see [docs/DEVELOPER_GUIDE.md](docs/DEVELOPER_GUIDE.md)*
-
 ## 🚀 Advanced Usage
 
 ### Preset Files
 
 Save and share configurations as JSON:
+
 1. Configure your style in the GUI
 2. Click "📋 Save Preset"
 3. Share with team members or reuse for consistent branding
@@ -389,6 +369,7 @@ Save and share configurations as JSON:
 ### Batch Processing
 
 For multiple QR codes with consistent styling:
+
 1. Design base style and save as preset
 2. For each QR: Load preset → Change content → Save PNG
 
